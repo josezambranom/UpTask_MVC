@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["darkmode/darkmode.scss"],"names":[],"mappings":"AAAA,mCAGI,KACI,iBAHS","file":"darkmode/darkmode.css","sourcesContent":["@media (prefers-color-scheme: dark){\r\n    $grisOscuro: #2c2c3b;\r\n\r\n    body {\r\n        background-color: $grisOscuro;\r\n    }\r\n\r\n    .tagline {\r\n        \r\n    }\r\n}"]}
