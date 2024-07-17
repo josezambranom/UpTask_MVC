@@ -2,25 +2,23 @@
 
 <div class="contenedor-sm">
     <?php include_once __DIR__ . '/../templates/alertas.php' ?>
-    <a href="/cambiar-password" class="enlace">Cambiar password</a>
+    <a href="/perfil" class="enlace">Volver al perfil</a>
 
     <form class="formulario" method="POST">
         <div class="campo">
-            <label for="nombre">Nombre</label>
+            <label for="password_actual">Password Actual</label>
             <input 
-                type="text"
-                value="<?php echo $usuario->nombre; ?>"
-                name="nombre"
-                placeholder="Tu nombre"
+                type="password"
+                name="password_actual"
+                placeholder="Tu password actual"
             />
         </div>
         <div class="campo">
-            <label for="email">Email</label>
+            <label for="password_nuevo">Nuevo Password</label>
             <input 
-                type="email"
-                value="<?php echo $usuario->email; ?>"
-                name="email"
-                placeholder="Tu email"
+                type="password"
+                name="password_nuevo"
+                placeholder="Tu password nuevo"
             />
         </div>
         <input type="submit" value="Guardar Cambios">
